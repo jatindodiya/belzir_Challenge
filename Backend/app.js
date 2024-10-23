@@ -4,6 +4,9 @@ require("dotenv").config();
 const app = express();
 app.use(express.json());
 
+const authRouter = require("./routes/auth")
+app.use('/auth',authRouter);
+
 app.get("/", (req, res) => {
   return res.send("Welcome to https://belzir.com/ Interview Challenge Test API!");
 });
