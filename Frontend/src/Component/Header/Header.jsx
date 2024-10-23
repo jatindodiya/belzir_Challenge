@@ -18,14 +18,14 @@ function Header() {
   };
 
   return (
-    <nav className="bg-gs-pink shadow-lg">
+    <nav className=" shadow-lg">
       <div className="container mx-auto px-6 py-2 flex items-center justify-between">
         {/* Logo */}
         <Link to="/">
           <div className="flex flex-col md:flex-row items-center">
-            <img className="w-24 md:w-32" src={gupshupLogo} alt="gupshup" />
-            <div className="mt-2 md:mt-0 md:ml-2 text-sm md:text-l text-gray-600">
-              HR Dashboard
+            <img className="w-6 md:w-12" src={gupshupLogo} alt="gupshup" />
+            <div className="mt-2 md:mt-0 md:ml-4 text-m md:text-xl text-gray-600">
+              Belzir Interview Challenge
             </div>
           </div>
         </Link>

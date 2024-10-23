@@ -37,7 +37,7 @@ function Login() {
 
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gs-pink">
+    <div className="flex items-center justify-center min-h-screen">
       <div className="grid grid-cols-2 p-8 rounded-lg w-4/5">
         
         <div className="flex flex-col items-center justify-center p-4">
